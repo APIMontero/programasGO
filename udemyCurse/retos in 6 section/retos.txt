@@ -1,0 +1,20 @@
+RETO: Para estudiante
+
+    Por mas simple que sea realiza las prácticas y usa las funciones.
+
+
+Practica 01: Suma de dos números enteros
+
+Enunciado: dado dos números enteros, hallar la suma.
+
+Análisis: para la solución de este problema, se requiere que el usuario ingrese dos números enteros y el sistema realice el cálculo respectivo para hallar la suma.
+Practica 02: Calcular cociente y el Residuo de dos números enteros
+
+Enunciado: halar el cociente y el residuo (resto) de dos números enteros.
+
+Análisis: para la solución de este problema, se requiere que el usuario ingrese dos números enteros y el sistema realice el cálculo respectivo para hallar el cociente y residuo.
+Practica 03: Calcular el Precio de Venta
+
+Enunciado: dado el valor de venta de productos, hallar el IGV (18%) y el precio de venta.
+
+Análisis: para la solución de este problema, se requiere que el usuario ingrese el valor de venta del producto y el sistema realice el cálculo respectivo para hallar el IGV y el precio de venta.

@@ -1,0 +1,10 @@
+total 2966
+drwxr-xr-x 1 chech 197609       0 Jan 25 21:49 [0m[01;34m.[0m/
+drwxr-xr-x 1 chech 197609       0 Sep  2  2021 [01;34m..[0m/
+-rw-r--r-- 1 chech 197609   74840 Sep  2  2021 cou.out
+-rw-r--r-- 1 chech 197609     262 Sep  2  2021 coverage.out
+-rw-r--r-- 1 chech 197609       0 Jan 25 21:49 listArchivosAdminMode.txt
+-rw-r--r-- 1 chech 197609     231 Sep  2  2021 mate.go
+-rw-r--r-- 1 chech 197609    1052 Sep  2  2021 mate_test.go
+-rw-r--r-- 1 chech 197609   13259 Sep  2  2021 profile001.pdf
+-rw-r--r-- 1 chech 197609 2931152 Sep  2  2021 testunitario.test
