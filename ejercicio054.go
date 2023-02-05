@@ -15,20 +15,46 @@ enunciado:"
 package main
 import "fmt"
 
+func promedio(estudiantes int, turno string){
+		suma:=0
+		var promedio float32
+		var edad   float32
+	  fmt.Print("Ingrese los datos para el turno de",turno)
+		for f := 1; f <= estudiantes; f++ {
+        fmt.Print("Ingrese edad del estudiante # ",f,":")
+        fmt.Scan(&edad)
+				suma = suma + edad
+    }
+
+		promedio=float32(suma) / float32(estudiantes)
+
+    fmt.Println("El promedio del turno de ",turno," es:", promedio)
+
+		return promedio
+}
+
 func main() {
-//Obtener:
-/*
-	Las edades de 5 estudiantes del turno mañana. e irlas sumando
-	Calcular el promedio de este turno y asignarlo
-
-	Las edades de 6 estudiantes del turno tarde. eirlas sumando
-		Calcular el promedio de este turno y asignarlo
-
-	Las edades de 11 estudiantes del turno noche. e irlas sumando
-		Calcular el promedio de este turno y asignarlo
-
-Imprimir los promedios por turnos
-
-Calcular el promedio mayor de los tres promedios, asignarlo a maximo y mostrarlo.
+	/*
+	Las edades de los estudiantes del cada  turno y sus promedios
 */
+
+var promedio5 , promedio6,  promedio11, mayor float32
+promedio5=promedio(5,"Mañana")
+promedio6= promedio(6,"Tarde")
+promedio11 = promedio(11,"Noche")
+mayor  = promedio5
+turno := " "
+
+if promedio5 > mayor{
+	mayor=promedio5
+	turno="Turno de Mañana"
+} else if promedio6 > mayor{
+	mayor=promedio6
+  turno="Turno de Tarde"
+}else if promedio11 > mayor{
+	mayor=promedio11
+	turno="Turno de Noche"
+}
+
+fmt.Print("El promedio mayor fue del ", turno, " con promedio de ", mayor, " estudiantes.")
 }
