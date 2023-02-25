@@ -15,8 +15,8 @@ enunciado:"
 package main
 import "fmt"
 
-func promedio(estudiantes int, turno string){
-		suma:=0
+func promedio(estudiantes float32, turno string){
+		var suma float32
 		var promedio float32
 		var edad   float32
 	  fmt.Print("Ingrese los datos para el turno de",turno)
